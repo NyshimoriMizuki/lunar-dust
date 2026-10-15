@@ -1,16 +1,10 @@
 # 🌙 Lunar Dust
 
-> A Lua implementation in Rust, aimed to faithfully recreate the behavior of the original C code.
-
----
-
-## What is Lunar Dust?
-
 **Lunar Dust** is a from-scratch implementation of the [Lua](https://www.lua.org/) programming language, written in Rust.
 
-It **is not** meant to be a production runtime, this is a study project, with the goal of **behavior fidelity to the reference implementation** (Lua 5.5.0), not novelty.
+It **is not** meant to be a production runtime, this is a study project, with the goals of **have fun**, **understand how programming languages work** and, of course, **behavior fidelity to the reference implementation** (Lua 5.5.0 in this case).
 
----
+I dont refuse help and suggestions, but, well, I want do it all by myself for a reason.
 
 ## Status
 
@@ -57,12 +51,11 @@ Don't expect quick updates nor a very high level code, not that I would not try.
 
 *(Subject to change/updates)*
 
----
 
 ## Building
 
 ```bash
-git clone https://github.com/<you>/lunar-dust.git
+git clone https://github.com/NyshimoriMizuki/lunar-dust.git
 cd lunar-dust
 cargo build --release
 ```
@@ -79,14 +72,14 @@ Run the test suite:
 cargo test
 ```
 
----
 
-## Why "Lunar Dust"?
+## Why the name "Lunar Dust"?
 
-Between the options to name it, one was "Lunar Rust", what I thought was strange, then changed to "Lunar Dust", which I liked, liked so much that I chose it. 
+Just a for fun thing here. 
+
+Between the all options to name that I made \(some with AI), one was "Lunar Rust", what I thought was good but a little strange, then changed to "Lunar Dust", which I liked, liked so much that I chose it. 
+
 (some ideas I discarded: "Lua.rs", "Luast", "Rua", ...)
-
----
 
 ## References
 
@@ -94,7 +87,6 @@ Between the options to name it, one was "Lunar Rust", what I thought was strange
 - [*The Implementation of Lua 5.0*](https://www.lua.org/doc/jucs05.pdf) — Ierusalimschy et al.
 - [*Lua 5.5 Reference Manual*](https://www.lua.org/manual/5.5/)
 
----
 
 ## License
 
